@@ -70,3 +70,7 @@ In `Final/index.ts` you will need both calls that you have already used, `fetchU
 **Note**: `fetchUserList` does not guarantee sorting, but any user coming from `listenForUser` _will_ have a sign up date later than any user in `fetchUserList`.
 
 __Bonus__: Use Rx. You can solve this by having one observable that starts with the fetched user list, is sorted and and organized correctly, and will update with every new user. You can use `Service`'s `listenForUserRx` if you would like. Maybe look into Rx's `scan` or some other accumulator operator.
+
+## Finishing up
+
+When you are ready to submit your solutions, feel free to either publish your repo under your own github account, or if you don't use Github you can send us a `.zip` file of your repo. Please do not include `node_modules/` in your `.zip` file.
